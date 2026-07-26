@@ -49,7 +49,13 @@ def predict_disease(symptom_text):
 st.markdown('<div class="main-title">🩺 MediBot</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Tell me your symptoms, and I\'ll suggest a possible condition</div>', unsafe_allow_html=True)
 
-st.warning("⚠️ This is an educational tool, not a medical diagnosis. Please consult a real doctor for actual health concerns.")
+st.markdown("""
+    <div style="background-color: #fff3cd; color: #856404; padding: 15px;
+    border-radius: 10px; border: 2px solid #ffc107; margin-bottom: 20px;
+    font-size: 15px; text-align: center;">
+    ⚠️ This is an educational tool, not a medical diagnosis. Please consult a real doctor for actual health concerns.
+    </div>
+""", unsafe_allow_html=True)
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
