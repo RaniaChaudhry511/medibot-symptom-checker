@@ -45,11 +45,11 @@ streamlit run app.py
 ## ⚠️ Limitations
 
 - This project was made **for practice and learning purposes only**.
-- 
+  
 - The dataset was **not very large**, so the model **can predict wrong results**.
-- 
+  
 - **Predictions depend on the symptoms entered.** If you enter incorrect or incomplete symptoms, the result can be wrong.
-- 
+  
 - Please **do not enter only common symptoms** like flu, cough or body pain, because these appear in many different diseases and the model cannot tell them apart. Enter as many **specific symptoms** as possible.
 
 ## Disclaimer
